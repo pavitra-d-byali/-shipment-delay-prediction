@@ -1,0 +1,73 @@
+# ===============================
+# Virtual Environments (CRITICAL)
+# ===============================
+venv/
+.env/
+.env
+
+# ===============================
+# Python cache / bytecode
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Data (keep structure, not files)
+# ===============================
+data/preprocessed/*
+!data/preprocessed/.gitkeep
+
+data/unprocessed/*
+!data/unprocessed/.gitkeep
+
+# ===============================
+# Logs
+# ===============================
+logs/*
+!logs/.gitkeep
+
+# ===============================
+# MLflow
+# ===============================
+mlruns/*
+!mlruns/.gitkeep
+
+# ===============================
+# Models / Artifacts
+# ===============================
+models/*
+!models/.gitkeep
+
+# ===============================
+# Pytest / coverage
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# OS junk
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# VS Code
+# ===============================
+.vscode/
+
+# ===============================
+# Build / dist
+# ===============================
+build/
+dist/
+*.egg-info/
